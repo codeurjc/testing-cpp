@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+<error file="Chat.h" line="11" id="missingIncludeSystem" severity="style" msg="Include file: &lt;string&gt; not found."/>
+<error file="Chat.h" line="12" id="missingIncludeSystem" severity="style" msg="Include file: &lt;vector&gt; not found."/>
+<error file="User.h" line="11" id="missingIncludeSystem" severity="style" msg="Include file: &lt;string&gt; not found."/>
+<error file="MediaServer.h" line="11" id="missingIncludeSystem" severity="style" msg="Include file: &lt;string&gt; not found."/>
+<error file="Chat.cpp" line="12" id="missingIncludeSystem" severity="style" msg="Include file: &lt;algorithm&gt; not found."/>
+<error file="ChatTest.cpp" line="2" id="missingInclude" severity="style" msg="Include file: &quot;gmock/gmock.h&quot; not found."/>
+<error file="MockUser.h" line="12" id="missingInclude" severity="style" msg="Include file: &quot;gmock/gmock.h&quot; not found."/>
+<error file="MockMediaServer.h" line="12" id="missingInclude" severity="style" msg="Include file: &quot;gmock/gmock.h&quot; not found."/>
+<error file="ChatTest.cpp" line="5" id="missingIncludeSystem" severity="style" msg="Include file: &lt;utility&gt; not found."/>
+<error file="ChatTest.cpp" line="6" id="missingIncludeSystem" severity="style" msg="Include file: &lt;iostream&gt; not found."/>
+<error file="ChatTest.cpp" line="7" id="missingIncludeSystem" severity="style" msg="Include file: &lt;cmath&gt; not found."/>
+</results>

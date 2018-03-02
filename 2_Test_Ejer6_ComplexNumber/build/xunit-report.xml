@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="13" failures="7" disabled="0" errors="0" time="0.001" name="AllTests">
+  <testsuite name="ComplexTestFixture" tests="5" failures="1" disabled="0" errors="0" time="0">
+    <testcase name="Zero" status="run" time="0" classname="ComplexTestFixture" />
+    <testcase name="ZeroFail" status="run" time="0" classname="ComplexTestFixture" />
+    <testcase name="ToStringFormat" status="run" time="0" classname="ComplexTestFixture">
+      <failure message="Value of: zero.toString().find(&quot;Comples&quot;) != std::string::npos&#x0A;  Actual: false&#x0A;Expected: true" type=""><![CDATA[../ComplexFixture_test.cpp:41
+Value of: zero.toString().find("Comples") != std::string::npos
+  Actual: false
+Expected: true]]></failure>
+      <failure message="Value of: zero.toString()&#x0A;Expected: contains regular expression &quot;Comples&quot;&#x0A;  Actual: &quot;0 + 0i &quot; (of type std::string)" type=""><![CDATA[../ComplexFixture_test.cpp:42
+Value of: zero.toString()
+Expected: contains regular expression "Comples"
+  Actual: "0 + 0i " (of type std::string)]]></failure>
+    </testcase>
+    <testcase name="Addition" status="run" time="0" classname="ComplexTestFixture" />
+    <testcase name="ReciprocalOfZero" status="run" time="0" classname="ComplexTestFixture" />
+  </testsuite>
+  <testsuite name="ComplexParamAbsSmall/ComplexParamAbs" tests="5" failures="4" disabled="0" errors="0" time="0.001">
+    <testcase name="Abs/0" value_param="(0 + 0i , 0)" status="run" time="0" classname="ComplexParamAbsSmall/ComplexParamAbs" />
+    <testcase name="Abs/1" value_param="(1 + 1i , 1.41421)" status="run" time="0" classname="ComplexParamAbsSmall/ComplexParamAbs">
+      <failure message="Value of: c.abs()&#x0A;Expected: is approximately 1.41421&#x0A;  Actual: 1.41421 (of type double)" type=""><![CDATA[../ComplexParamAbs_test.cpp:25
+Value of: c.abs()
+Expected: is approximately 1.41421
+  Actual: 1.41421 (of type double)]]></failure>
+    </testcase>
+    <testcase name="Abs/2" value_param="(2 + 2i , 2.82843)" status="run" time="0" classname="ComplexParamAbsSmall/ComplexParamAbs">
+      <failure message="Value of: c.abs()&#x0A;Expected: is approximately 2.82843&#x0A;  Actual: 2.82843 (of type double)" type=""><![CDATA[../ComplexParamAbs_test.cpp:25
+Value of: c.abs()
+Expected: is approximately 2.82843
+  Actual: 2.82843 (of type double)]]></failure>
+    </testcase>
+    <testcase name="Abs/3" value_param="(5 + 5i , 7.07107)" status="run" time="0" classname="ComplexParamAbsSmall/ComplexParamAbs">
+      <failure message="Value of: c.abs()&#x0A;Expected: is approximately 7.0710699999999997&#x0A;  Actual: 7.07107 (of type double)" type=""><![CDATA[../ComplexParamAbs_test.cpp:25
+Value of: c.abs()
+Expected: is approximately 7.0710699999999997
+  Actual: 7.07107 (of type double)]]></failure>
+    </testcase>
+    <testcase name="Abs/4" value_param="(10 + 10i , 14.1421)" status="run" time="0.001" classname="ComplexParamAbsSmall/ComplexParamAbs">
+      <failure message="Value of: c.abs()&#x0A;Expected: is approximately 14.142099999999999&#x0A;  Actual: 14.1421 (of type double)" type=""><![CDATA[../ComplexParamAbs_test.cpp:25
+Value of: c.abs()
+Expected: is approximately 14.142099999999999
+  Actual: 14.1421 (of type double)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="ComplexParamAbsBig/ComplexParamAbs" tests="3" failures="2" disabled="0" errors="0" time="0">
+    <testcase name="Abs/0" value_param="(0 + 0i , 0)" status="run" time="0" classname="ComplexParamAbsBig/ComplexParamAbs" />
+    <testcase name="Abs/1" value_param="(10 + 1i , 10.05)" status="run" time="0" classname="ComplexParamAbsBig/ComplexParamAbs">
+      <failure message="Value of: c.abs()&#x0A;Expected: is approximately 10.049989999999999&#x0A;  Actual: 10.0499 (of type double)" type=""><![CDATA[../ComplexParamAbs_test.cpp:25
+Value of: c.abs()
+Expected: is approximately 10.049989999999999
+  Actual: 10.0499 (of type double)]]></failure>
+    </testcase>
+    <testcase name="Abs/2" value_param="(20 + 2i , 20.0998)" status="run" time="0" classname="ComplexParamAbsBig/ComplexParamAbs">
+      <failure message="Value of: c.abs()&#x0A;Expected: is approximately 20.099789999999999&#x0A;  Actual: 20.0998 (of type double)" type=""><![CDATA[../ComplexParamAbs_test.cpp:25
+Value of: c.abs()
+Expected: is approximately 20.099789999999999
+  Actual: 20.0998 (of type double)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
