@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Tests.dir/example.cpp.o  -o Tests -rdynamic ../googletest-build/googlemock/gtest/libgtest.a ../googletest-build/googlemock/libgmock_main.a ../googletest-build/googlemock/libgmock.a ../googletest-build/googlemock/gtest/libgtest.a -pthread 

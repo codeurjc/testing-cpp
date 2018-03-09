@@ -25,7 +25,7 @@ TEST_F(ComplexTestFixture, Zero) {
 
 TEST_F(ComplexTestFixture, Addition) {
 
-	EXPECT_EQ(Complex(1,1), zero.add(Complex(1,1)));
+	EXPECT_EQ(Complex(1,0), zero.add(Complex(1,1)));
 	EXPECT_EQ(Complex(1,1), (Complex(1,1)).add(zero));
 }
 

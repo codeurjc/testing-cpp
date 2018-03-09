@@ -1,0 +1,60 @@
+Start testing: Mar 09 09:54 CET
+----------------------------------------------------------
+1/2 Testing: test
+1/2 Test: test
+Command: "/home/mica/Data/elastest-code/testing-cpp/2_Test_Ejem1_CMake/build/tests/Tests"
+Directory: /home/mica/Data/elastest-code/testing-cpp/2_Test_Ejem1_CMake/build/tests
+"test" start time: Mar 09 09:54 CET
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+[==========] Running 2 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from Dummy
+[ RUN      ] Dummy.foobar
+[       OK ] Dummy.foobar (0 ms)
+[----------] 1 test from Dummy (0 ms total)
+
+[----------] 1 test from TeaBreakTest
+[ RUN      ] TeaBreakTest.MorningTea
+[       OK ] TeaBreakTest.MorningTea (0 ms)
+[----------] 1 test from TeaBreakTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 2 test cases ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test" end time: Mar 09 09:54 CET
+"test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: complexTest
+2/2 Test: complexTest
+Command: "/home/mica/Data/elastest-code/testing-cpp/2_Test_Ejem1_CMake/build/tests/complexTest"
+Directory: /home/mica/Data/elastest-code/testing-cpp/2_Test_Ejem1_CMake/build/tests
+"complexTest" start time: Mar 09 09:54 CET
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ComplexTest
+[ RUN      ] ComplexTest.GivenZeroComplex_thenRealPartZeroAndImagPartZero
+[       OK ] ComplexTest.GivenZeroComplex_thenRealPartZeroAndImagPartZero (0 ms)
+[----------] 1 test from ComplexTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"complexTest" end time: Mar 09 09:54 CET
+"complexTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 09 09:54 CET
