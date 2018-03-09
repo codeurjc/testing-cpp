@@ -1,6 +1,6 @@
-# cmake-google-test-skeleton
+# 2_Test_Ejem1_CMake
 
-Skeleton for C++ projects using CMake and google-test.
+Sample project for C++ projects using CMake, google-test and goole-mock.
 
 This project adds tests using google-test and google-mock.
 The google-test and google-mock dependency is downloaded automatically from git.
@@ -12,7 +12,6 @@ mkdir build
 cd build
 cmake ../
 ```
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
 ## Compile
 
@@ -49,3 +48,7 @@ Both can be executed and the typical google-test output is obtained.
 
 The project includes a hello world executable that is compiled at:
 * *<build_dir>/ejercicio1*
+
+## Edit on Eclipse
+
+Install [cmake4eclipse](https://github.com/15knots/cmake4eclipse) plugin in Eclipse CDT. Then import the project as it is already configured to work with the plugin.
